@@ -16,8 +16,7 @@ from time import gmtime, strftime
 from synbiochem import utils
 
 from autogenes import pipeline, worklist
-from autogenes.block import InnerBlockPoolWriter, \
-    BlockPcrWriter, BlockPoolWriter
+from autogenes.block import InnerBlockPoolWriter, BlockPcrWriter, BlockPoolWriter
 from autogenes.dilution import WtOligoDilutionWriter
 from autogenes.gene import CombiGenePcrWriter
 from autogenes.pool import MutOligoPoolWriter
@@ -121,16 +120,7 @@ def _get_combis(oligos, mutant_oligos, n_mutated, n_blocks):
 
 def main(args):
     '''main method.'''
-    import cProfile
-
-    prf = cProfile.Profile()
-    prf.enable()
-
     run(args[0], int(args[1]), int(args[2]), args[3], args[4])
-
-    prf.disable()
-
-    prf.print_stats(sort='cumtime')
 
 
 if __name__ == '__main__':
