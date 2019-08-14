@@ -8,8 +8,6 @@ To view a copy of this license, visit <http://opensource.org/licenses/MIT/>.
 @author: neilswainston
 '''
 # pylint: disable=invalid-name
-# pylint: disable=wrong-import-order
-# from igraph import Graph
 from synbiochem.utils.graph_utils import add_edge, add_vertex, Graph
 
 

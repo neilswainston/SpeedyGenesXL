@@ -12,8 +12,8 @@ To view a copy of this license, visit <http://opensource.org/licenses/MIT/>.
 from collections import defaultdict
 import itertools
 
-from autogenes import get_dil_oligo_id, get_block_id, \
-    get_design_id, get_pos_muts
+from autogenes import get_dil_oligo_id, get_block_id, get_design_id, \
+    get_pos_muts
 from autogenes.pcr import PcrWriter
 
 
