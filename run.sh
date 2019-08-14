@@ -4,7 +4,7 @@ export PYTHONPATH=$PYTHONPATH:.
 
 python autogenes/run.py \
 	data/plates \
-	1 \
-	4 \
+	2 \
+	3 \
 	out/ \
 	MAON
