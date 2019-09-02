@@ -16,7 +16,8 @@ from time import gmtime, strftime
 from synbiochem import utils
 
 from autogenes import pipeline, worklist
-from autogenes.block import InnerBlockPoolWriter, BlockPcrWriter, BlockPoolWriter
+from autogenes.block import InnerBlockPoolWriter, BlockPcrWriter, \
+    BlockPoolWriter
 from autogenes.dilution import WtOligoDilutionWriter
 from autogenes.gene import CombiGenePcrWriter
 from autogenes.pool import MutOligoPoolWriter
