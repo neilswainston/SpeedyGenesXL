@@ -1,0 +1,4 @@
+Volume,SourcePlateBarcode,SourcePlateWell,DestinationPlateBarcode,DestinationPlateWell,ComponentName,dest_name
+25,MAON-pcr1,A1,MAON-wt-bk,A1,1_wt_b,1_wt_p
+25,MAON-pcr1,B1,MAON-wt-bk,B1,2_wt_b,2_wt_p
+25,MAON-pcr1,C1,MAON-wt-bk,C1,3_wt_b,3_wt_p

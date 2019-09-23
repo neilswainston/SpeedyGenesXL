@@ -1,0 +1,5 @@
+src_plate,src_well,src_name,total_volume,dest_plate
+MAON-pcr1,A1,1_wt_b,25.0,
+MAON-pcr1,B1,2_wt_b,25.0,
+MAON-pcr1,C1,3_wt_b,25.0,
+,,,,MAON-wt-bk
